@@ -42,7 +42,11 @@ void loop() {
       lcd.clear();
       lcd.setCursor(4, 0);
       lcd.print("!! ALARM !!");
+<<<<<<< HEAD
       //Buzzer nyala-mati tiap 250ms
+=======
+      // Buzzer nyala-mati tiap 250ms
+>>>>>>> 552d6c1 (Pertemuan6)
       digitalWrite(buzzerPin, HIGH);
       delay(100);
       digitalWrite(buzzerPin, LOW);
