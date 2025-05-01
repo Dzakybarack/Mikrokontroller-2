@@ -43,10 +43,10 @@ void loop() {
       lcd.setCursor(4, 0);
       lcd.print("!! ALARM !!");
       // Buzzer nyala-mati tiap 250ms
-      // digitalWrite(buzzerPin, HIGH);
-      // delay(100);
-      // digitalWrite(buzzerPin, LOW);
-      // delay(100);
+      digitalWrite(buzzerPin, HIGH);
+      delay(100);
+      digitalWrite(buzzerPin, LOW);
+      delay(100);
     } else {
       alarmActive = false;
       digitalWrite(buzzerPin, LOW);
